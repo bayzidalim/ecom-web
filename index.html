@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website With Formatted Styles</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .main-form{
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- form section -->
+    <section class="main-form" style="background-color: #7A5CFA;width: auto;">
+        <div class="form-section">
+            <p class="caption-text">Username</p>
+            <input type="text" placeholder="Enter Username" class="input-box">
+            <p class="caption-text">Password</p>
+            <input type="password" placeholder="Enter Password" class="input-box">
+            <p style="font-size: smaller;font-style: italic;">(Your Password must be 4-12 charecter long)</p>
+            <input type="checkbox">
+            <label>Remember Me</label><br>
+            <button>Login</button>
+            <br>
+            <p>Enter Your Favorite Hobby:</p>
+            <input type="radio" name="" id="">
+            <label for="">Traveling</label>
+            <br>
+            <input type="radio" name="" id="">
+            <label for="">Listening to music</label>
+            <br>
+            <input type="radio" name="" id="">
+            <label for="">Coding</label>
+            <br>
+            <input type="radio" name="" id="">
+            <label for="">Cooking</label>
+        </div>
+        
+    </section>
+    <!-- Table Section -->
+     <section class="table-section">
+        <div style="background-color: white; width: 80%;">
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Relationship Status</th>
+                    <th>Mood</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Kuddus Ali</td>
+                    <td>CSE</td>
+                    <td>
+                        <label><input type="checkbox" name="relationship1" value="Single"> Single</label>
+                        <label><input type="checkbox" name="relationship1" value="Mingle"> Mingle</label>
+                    </td>
+                    <td>
+                        <label><input type="checkbox" name="mood1" value="Lazy"> Lazy</label>
+                        <label><input type="checkbox" name="mood1" value="Happy"> Happy</label>
+                        <label><input type="checkbox" name="mood1" value="Angry"> Angry</label>
+                        <label><input type="checkbox" name="mood1" value="Depressed"> Depressed</label>
+                        <label><input type="checkbox" name="mood1" value="Tired"> Tired</label>
+                        <label><input type="checkbox" name="mood1" value="Active"> Active</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Morjina Khatun</td>
+                    <td>EEE</td>
+                    <td>
+                        <label><input type="checkbox" name="relationship1" value="Single"> Single</label>
+                        <label><input type="checkbox" name="relationship1" value="Mingle"> Mingle</label>
+                    </td>
+                    <td>
+                        <label><input type="checkbox" name="mood1" value="Lazy"> Lazy</label>
+                        <label><input type="checkbox" name="mood1" value="Happy"> Happy</label>
+                        <label><input type="checkbox" name="mood1" value="Angry"> Angry</label>
+                        <label><input type="checkbox" name="mood1" value="Depressed"> Depressed</label>
+                        <label><input type="checkbox" name="mood1" value="Tired"> Tired</label>
+                        <label><input type="checkbox" name="mood1" value="Active"> Active</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Joynal Uddin</td>
+                    <td>Marketing</td>
+                    <td>
+                        <label><input type="checkbox" name="relationship1" value="Single"> Single</label>
+                        <label><input type="checkbox" name="relationship1" value="Mingle"> Mingle</label>
+                    </td>
+                    <td>
+                        <label><input type="checkbox" name="mood1" value="Lazy"> Lazy</label>
+                        <label><input type="checkbox" name="mood1" value="Happy"> Happy</label>
+                        <label><input type="checkbox" name="mood1" value="Angry"> Angry</label>
+                        <label><input type="checkbox" name="mood1" value="Depressed"> Depressed</label>
+                        <label><input type="checkbox" name="mood1" value="Tired"> Tired</label>
+                        <label><input type="checkbox" name="mood1" value="Active"> Active</label>
+                    </td>
+                </tr>
+            </table>
+            <button style="margin-top: 20px;margin-left: 5%;">Next</button>
+        </div>
+     </section>
+</body>
+</html>
